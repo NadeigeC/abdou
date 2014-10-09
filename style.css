@@ -117,7 +117,7 @@ a {
 #container {
 	width:950px;
 	margin:0 auto;
-	
+
 	padding-top:30px;
 }
 
@@ -128,7 +128,7 @@ a {
 }
 
 #right {
-	width:620px;	
+	width:620px;
 	float:left;
 	margin-top:15px;
 }
@@ -152,7 +152,7 @@ a {
 	height:225px;
 	background:url(img/post-it.png) no-repeat;
 	padding:40px 40px 30px 30px;
-	/*-webkit-transform: rotate(-2deg); 
+	/*-webkit-transform: rotate(-2deg);
 	-moz-transform: rotate(-2deg);*/
 }
 
@@ -161,7 +161,7 @@ a {
 	background:url(img/borderbottom.png) no-repeat;
 	height:10px;
 	width:950px;
-	
+
 }
 
 #footer {
@@ -217,53 +217,62 @@ h3 {
 	color:#0093D6;*/
 }
 
-.tddesc {
+.container p {
 	font-style:italic;
 	color:#666;
 	font-size:11px;
+	text-align: justify;
 }
 
-td.transport, td.hebergement, td.repas, td.guide, td.agadir, td.marrakech {
-	width:70px;
-	height:70px;
+#transport, #hebergement, #repas, #guide, #agadir, #marrakech {
+	width:200px;
+	padding-left: 80px;
+	height:auto;
+	margin-right: 25px;
 	background-image:url(img/icons-sprite.png);
 	background-repeat:no-repeat;
+	display :inline-block;
+
 }
 
-td.transport {
+#transport {
 	background-position:0 0;
 }
 
-td.hebergement {
+#hebergement {
 	background-position:0 -78px;
 }
 
-td.repas {
+#repas {
 	background-position:0 -162px;
 }
 
-td.guide {
+#guide {
 	background-position:0 -248px;
 }
 
-td.agadir {
+#agadir {
 	background-position:0 -330px;
 }
 
-td.marrakech {
+#marrakech {
 	background-position:0 -410px;
 }
+
+
+
+
 
 img.pics {
 	width:80px;
 	height:80px;
 	border:solid 4px #FFF;
-	
-	-moz-box-shadow: 3px 3px 3px #aaa; 
-	-webkit-box-shadow: 3px 3px 3px #aaa; 
-	box-shadow: 3px 3px 3px #555; 
+
+	-moz-box-shadow: 3px 3px 3px #aaa;
+	-webkit-box-shadow: 3px 3px 3px #aaa;
+	box-shadow: 3px 3px 3px #555;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=135, Strength=3);
-	
+
 	float:left;
 	margin-right:12px;
 	margin-bottom:12px;
