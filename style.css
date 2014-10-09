@@ -273,3 +273,26 @@ li {
 background:url(img/tick.png) no-repeat left;
 padding-left:20px;
 }
+
+
+/* plugin jquery agrandir /reduire texte*/
+
+
+
+#agrandir{
+	text-decoration: underline;
+	color:#27ae60;
+	font-weight: 700;
+
+	
+	
+}
+
+#diminuer{
+	text-decoration: underline;
+	color:#27ae60;
+	font-weight: 700;
+
+	
+
+}

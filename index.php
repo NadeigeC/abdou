@@ -6,12 +6,17 @@
 <meta name="Description" content="Abderrahim Derbani, guide de parapente au Maroc, sur les circuits d'Agadir et de Marrakech." keyword=" guide,parapente,parapentiste,Maroc, Agadir, Marrakech,parapentiste,sejour, " />
 
 
+
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </head>
 
 <body>
+
+
+
 
 	<div id="container">
 
@@ -38,10 +43,11 @@
 
 
             </div>
-
-
+                
 
              <div id="contact">
+
+             <div class="text">
                 <h2>Contact</h2>
                 <h3>Abderrahim Derbani</h3>
                     Tel : +212 (0)6 64 38 94 27<br />
@@ -55,12 +61,17 @@
                     <!--<p><b>Bon à savoir :</b> plus vous êtes nombreux à vous inscrire, plus mes prix sont interressants!<br /><br />
                     Pour connaître mes tarifs, <a href="mailto:derbaniwaga@hotmail.com" target="_blank">contactez-moi</a>.</p>-->
             </div>
+                </div>
 
         </div>
 
         <div id="right">
 
-            <div id="services">
+            <div id="services" class="text">
+               
+                    <div id="agrandir">Agrandir le texte</div>
+                    <div id="diminuer">Diminuer le texte</div>
+
                 <h2>Services</h2>
                 Je me charge de l'intendance de votre séjour : transport, hôtels et gites, repas. Je vous servirai de guide et d'interprète
                 et je vous trouverai les meilleurs endroits pour que vous puissiez assouvir votre passion.<br />
@@ -92,9 +103,14 @@
             <br />
 
             <div id="services">
-                <h2>Circuits</h2>
+
+            </div>
+                    
+                         <h2>Circuits</h2>
 
                 <!--Je m'adapte à chaque groupe et mes circuits sont flexibles. Cependant, ces 2 circuits sont plus souvent pratiqués, car ils offrent une grande variété de sites intéressants.<br><br>-->
+
+                <div class="text">
 
                2 circuits sont plus souvent pratiqués, car ils offrent une grande variété de sites intéressants. Cependant, je suis à votre disposition pour vous proposer d'autres destinations selon vos souhaits. Et, en cours de séjour, si la météo nous y oblige, nous pourrons bien sur modifier le parcours pour aller là où ça vole !<br /><br />
                 <table><tr>
@@ -116,8 +132,8 @@
                     <li>Avant le départ, vous devez impérativement avoir rempli les conditions d'autorisation de vol au Maroc.</li>
                 </ul>
             </div>
-
-        </div>
+                </div>
+     
 
 
     </div>
@@ -156,6 +172,8 @@
 
     </div>
 
+ 
+
 </div>
 
 
@@ -187,7 +205,49 @@ $("a[rel=shadowbox]").fancybox({
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+<script>
 
+$(document).ready(function () {
+$('augmenter').click(function () {
+$('.text').stop().animate({fontSize: "17px"},300);
+});
+});
+
+$(document).ready(function () {
+$('#agrandir').click(function () {
+$('.text').stop().animate({fontSize: '+=1px'},300);
+});
+$('#diminuer').click(function () {
+$('.text').stop().animate({fontSize: '-=1px'},300);
+});
+});
+
+$(document).ready(function () {
+var taille = 15;
+var augmentation = 1;
+var tailleMax = 24;
+var tailleMin= 12;
+$('#agrandir').click(function () {
+taille +=1;
+if (taille >= tailleMax)
+{
+taille = tailleMax;
+}
+$('.text').stop().animate({fontSize: taille+"px"},300);
+});
+$('#diminuer').click(function () {
+taille -=1;
+if (taille <= tailleMin)
+{
+taille = tailleMin;
+}
+$('.text').stop().animate({fontSize: taille+"px"},300);
+});
+});
+
+
+
+</script>
 
 
 
