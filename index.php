@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Guide de parapente au Maroc | Abderahim Derbani</title>
-<meta name="Description" content="Abderrahim Derbani, guide de parapente au Maroc, sur les circuits d'Agadir et de Marrakech." keyword=" guide,parapente,parapenstiste,Maroc, Agadir, Marrakech,parapentiste,sejour, " />
+<meta name="Description" content="Abderrahim Derbani, guide de parapente au Maroc, sur les circuits d'Agadir et de Marrakech." keyword=" guide,parapente,parapentiste,Maroc, Agadir, Marrakech,parapentiste,sejour, " />
 
 
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
