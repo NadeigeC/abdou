@@ -76,28 +76,24 @@
                 Je me charge de l'intendance de votre séjour : transport, hôtels et gites, repas. Je vous servirai de guide et d'interprète
                 et je vous trouverai les meilleurs endroits pour que vous puissiez assouvir votre passion.<br />
                 <span class="tagline">Vous ne faites que gonfler, voler, manger, rire, dormir. Le reste, je m'en occupe...</span><br /><br />
-                <table><tr>
-                    <td class="transport"></td>
-                    <td class="tddesc">
+                <div class="container"><tr>
+                    <div id="transport">
                         <h3>Transport</h3>
-                        Transfert de et vers l'aéroport, navettes entre l'attéro et le déco, courses locales avant le départ...</td>
-                    <td class="hebergement"></td>
-                    <td class="tddesc">
+                        <p>Transfert de et vers l'aéroport, navettes entre l'attéro et le déco, courses locales avant le départ...</p>
+                    </div>
+                    <div id="hebergement">
                         <h3>Hébergement</h3>
-                        Réservations d'hôtels et d'auberges confortables, directement sur le déco lorsque possible.
-                    </td>
-                </tr><tr>
-                    <td class="repas"></td>
-                    <td class="tddesc">
+                        <p>Réservations d'hôtels et d'auberges confortables, directement sur le déco lorsque possible.</p>
+                    </div>
+                    <div id="repas">
                         <h3>Repas</h3>
-                        Réservation dans des restaurants typiques, préparation des déjeuners directement sur le site, au besoin.
-                    </td>
-                    <td class="guide"></td>
-                    <td class="tddesc">
+                        <p>Réservation dans des restaurants typiques, préparation des déjeuners directement sur le site, au besoin.</p>
+                    </div>
+                    <div id="guide">
                         <h3>Guide</h3>
-                        Proposition de circuits en fonction de l'aérologie, visites locales, renseignements culturels.
-                    </td>
-                </tr></table>
+                        <p>Proposition de circuits en fonction de l'aérologie, visites locales, renseignements culturels.</p>
+                    </div>
+                </div>
             </div>
 
             <br />
@@ -113,17 +109,16 @@
                 <div class="text">
 
                2 circuits sont plus souvent pratiqués, car ils offrent une grande variété de sites intéressants. Cependant, je suis à votre disposition pour vous proposer d'autres destinations selon vos souhaits. Et, en cours de séjour, si la météo nous y oblige, nous pourrons bien sur modifier le parcours pour aller là où ça vole !<br /><br />
-                <table><tr>
-                    <td class="agadir"></td>
-                    <td class="tddesc">
+               <div class="container"><tr>
+                    <div id="agadir">
                         <h3>Agadir</h3>
-                        Transferts aéroport d'Agadir, vols littoral principalement, auberges pieds-dans-l'eau, jusqu'à 300m de dénivelé...
-                    <td class="marrakech"></td>
-                    <td class="tddesc">
+                        <p>Transferts aéroport d'Agadir, vols littoral principalement, auberges pieds-dans-l'eau, jusqu'à 300m de dénivelé...</p>
+                    </div>
+                    <div id="marrakech">
                         <h3>Marrakech</h3>
-                        Transferts aéroport de Marrakech, vols en montagne, vue sur les sommets de l'Atlas, longs vols thermiques...
-                    </td>
-                </tr></table>
+                        <p>Transferts aéroport de Marrakech, vols en montagne, vue sur les sommets de l'Atlas, longs vols thermiques...</p>
+                    </div>
+                </div>
 
                 <br />
                 <ul>
